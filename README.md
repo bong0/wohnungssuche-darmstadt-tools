@@ -3,12 +3,13 @@ Eine Sammlung von Tricks zum schnellen Auffinden von Wohnungen in Darmstadt und 
 
 # Bauverein
 Die Website vom Bauverein lässt sich nur mit mehr Aufwand überwachen. Eine Lösung bieter das Bash-CGI Script `bau.sh`.
+Falls du kein bash-cgi laufen lassen kannst: ich habe ein script was das shellscript via PHP aufrufen kann (und sich sonst wie CGI verhält): https://gist.github.com/bong0/b04977be5d4ef9fc80455beb7b2d9bdf 
 
 Benötigt wird `node-js`, `pup`(https://github.com/ericchiang/pup) und wget
 
 Ist das bash-cgi am laufen benötigt ihr noch einen guten "URL-Überwacher". Ich lege euch https://github.com/thp/urlwatch ans Herz.
 
-Manche Angebote sind nur eine Stunde(**!**) online sodass sich schnell sein lohnt (cronjob alle 15 Minuten erwies sich als ausreichend).
+Manche Angebote sind nur eine Stunde(**!**) online, sodass sich schnell sein lohnt (cronjob alle 15 Minuten erwies sich als ausreichend).
 
 
 # Echo-Online
