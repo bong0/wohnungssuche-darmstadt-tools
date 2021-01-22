@@ -9,6 +9,8 @@ Benötigt wird `node-js`, `pup`(https://github.com/ericchiang/pup) und wget
 
 Ist das bash-cgi am laufen benötigt ihr noch einen guten "URL-Überwacher". Ich lege euch https://github.com/thp/urlwatch ans Herz.
 
+Ihr könnt die erzeuge minimale Website z.B. mit https://rss.geturl.eu/ zu einem RSS/ATOM Feed konvertieren (dahinter steckt die Software rss-proxy).
+
 Manche Angebote sind nur eine Stunde(**!**) online, sodass sich schnell sein lohnt (cronjob alle 15 Minuten erwies sich als ausreichend).
 
 
